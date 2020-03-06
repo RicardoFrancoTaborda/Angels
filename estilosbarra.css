@@ -5,12 +5,10 @@
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-	position: fixed;
-	background-color: white;
-	width: 100%;
 	top: 0;
+	background-color: white;
 
-	
+
 	}
 
 	li {
@@ -21,7 +19,7 @@
 		display: inline-block;
 		color: black;
 		text-align: center;
-		padding: 8px 14px;
+		padding: 14px 16px;
 		text-decoration: none;
 	}
 		
@@ -38,7 +36,7 @@
 		display: none;
 		position: absolute;
 		background-color: black;
-		min-width: 180px;
+		min-width: 160px;
 		box-shadow: green;
 		z-index: 1;
 	}
@@ -56,11 +54,5 @@
 	}
 
 	.submenu:hover .submenu-content {
- 	 display: inline-block;
-	}
-	
-	@media only screen and (max-width: 400px) {
-		body, li a,  {
-			width: 100%;
-		}
+ 	 display: block;
 	}
