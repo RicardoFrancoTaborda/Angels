@@ -1,0 +1,63 @@
+body {
+	margin: 0;
+}
+
+h1 {
+	color: white;
+	text-align: center;
+	font-size: 500%;
+}
+
+h2 {
+	color: white;
+	text-align: center;
+	font-size: 300%;
+	font-family: ALGERIAN;
+	font-style: italic;
+}
+
+p {
+	color: white;
+	text-align: left;
+	
+}
+
+
+	<ul>
+		
+		<li class="submenu">
+			<a href="javascript:void(0)" class="submenu">  Inicio  </a>
+			<div class="submenu-content">
+				<a href="#">Facebook</a>
+				<a href="#">Instagram</a>
+				<a href="#">Twiter</a>
+			</div>
+		</li>
+		<li class="submenu">
+			<a href="javascript:void(0)" class="submenu"> Tatuajes </a>
+			<div class="submenu-content">
+				<a href="#">Trabajos 2018</a>
+				<a href="#">Trabajos 2019</a>
+				<a href="#">Trabajos 2020</a>
+			</div>
+		</li>
+		<li class="submenu">
+			<a href="javascript:void(0)" class="submenu">Piercings</a>
+			<div class="submenu-content">
+				<a href="#">Microdermal</a>
+				<a href="#">Expansiones</a>
+			</div>
+		</li>
+		<li class="submenu">
+			<a href="javascript:void(0)" class="submenu"> Cover up </a>
+			<div class="submenu-content">
+				<a href="#">Pequeños</a>
+				<a href="#">Medianos</a>
+				<a href="#">Grandes</a>
+			</div>
+		</li>
+
+	</ul>
+
+
+

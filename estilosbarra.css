@@ -19,12 +19,11 @@
 		padding: 10px 16px;
 		text-decoration: none;
 	}
-		
-	li a:hover, .submenu:hover, .submenu {
-			background-color: white;
-			color: black;
+	li a:hover{
+			background-color: black;
+			color: white;
 	}
-
+	
 	li.submenu  {
 		display: inline-block;
 	}
@@ -117,5 +116,9 @@
 		color: white;
 		text-align: justify;
 		font-size: 3vw;
+	}
+
+	label, legend {
+		color: white;
 	}
 
